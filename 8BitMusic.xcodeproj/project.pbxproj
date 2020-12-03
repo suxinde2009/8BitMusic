@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FFAC1BA2578CA1300C25FF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFAC1B92578CA1300C25FF9 /* AppDelegate.m */; };
+		1FFAC1BD2578CA1300C25FF9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFAC1BC2578CA1300C25FF9 /* SceneDelegate.m */; };
+		1FFAC1C02578CA1300C25FF9 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FFAC1BF2578CA1300C25FF9 /* ViewController.mm */; };
+		1FFAC1C32578CA1300C25FF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFAC1C12578CA1300C25FF9 /* Main.storyboard */; };
+		1FFAC1C52578CA1600C25FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFAC1C42578CA1600C25FF9 /* Assets.xcassets */; };
+		1FFAC1C82578CA1600C25FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFAC1C62578CA1600C25FF9 /* LaunchScreen.storyboard */; };
+		1FFAC1CB2578CA1600C25FF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFAC1CA2578CA1600C25FF9 /* main.m */; };
+		1FFAC1D52578CB4500C25FF9 /* OpenAL8BitPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FFAC1D32578CB4500C25FF9 /* OpenAL8BitPlayer.cpp */; };
+		1FFAC1DB2578CEF400C25FF9 /* 钢铁洪流进行曲.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FFAC1D72578CEF400C25FF9 /* 钢铁洪流进行曲.txt */; };
+		1FFAC1DC2578CEF400C25FF9 /* 幻化成风.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FFAC1D82578CEF400C25FF9 /* 幻化成风.txt */; };
+		1FFAC1DD2578CEF400C25FF9 /* Time after time.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FFAC1D92578CEF400C25FF9 /* Time after time.txt */; };
+		1FFAC1DE2578CEF400C25FF9 /* 灶门碳治郎之歌.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FFAC1DA2578CEF400C25FF9 /* 灶门碳治郎之歌.txt */; };
+		1FFAC1E12578D0D700C25FF9 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFAC1E02578D0D700C25FF9 /* OpenAL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FFAC1B52578CA1300C25FF9 /* 8BitMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 8BitMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFAC1B82578CA1300C25FF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FFAC1B92578CA1300C25FF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FFAC1BB2578CA1300C25FF9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1FFAC1BC2578CA1300C25FF9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1FFAC1BE2578CA1300C25FF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FFAC1BF2578CA1300C25FF9 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		1FFAC1C22578CA1300C25FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FFAC1C42578CA1600C25FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FFAC1C72578CA1600C25FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FFAC1C92578CA1600C25FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFAC1CA2578CA1600C25FF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FFAC1D22578CA9A00C25FF9 /* DataDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataDefs.h; sourceTree = "<group>"; };
+		1FFAC1D32578CB4500C25FF9 /* OpenAL8BitPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenAL8BitPlayer.cpp; sourceTree = "<group>"; };
+		1FFAC1D42578CB4500C25FF9 /* OpenAL8BitPlayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenAL8BitPlayer.hpp; sourceTree = "<group>"; };
+		1FFAC1D72578CEF400C25FF9 /* 钢铁洪流进行曲.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "钢铁洪流进行曲.txt"; sourceTree = "<group>"; };
+		1FFAC1D82578CEF400C25FF9 /* 幻化成风.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "幻化成风.txt"; sourceTree = "<group>"; };
+		1FFAC1D92578CEF400C25FF9 /* Time after time.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Time after time.txt"; sourceTree = "<group>"; };
+		1FFAC1DA2578CEF400C25FF9 /* 灶门碳治郎之歌.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "灶门碳治郎之歌.txt"; sourceTree = "<group>"; };
+		1FFAC1E02578D0D700C25FF9 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FFAC1B22578CA1300C25FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFAC1E12578D0D700C25FF9 /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FFAC1AC2578CA1300C25FF9 = {
+			isa = PBXGroup;
+			children = (
+				1FFAC1B72578CA1300C25FF9 /* 8BitMusic */,
+				1FFAC1B62578CA1300C25FF9 /* Products */,
+				1FFAC1DF2578D0D600C25FF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FFAC1B62578CA1300C25FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFAC1B52578CA1300C25FF9 /* 8BitMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FFAC1B72578CA1300C25FF9 /* 8BitMusic */ = {
+			isa = PBXGroup;
+			children = (
+				1FFAC1D62578CED400C25FF9 /* Resources */,
+				1FFAC1D12578CA8200C25FF9 /* Classes */,
+				1FFAC1B82578CA1300C25FF9 /* AppDelegate.h */,
+				1FFAC1B92578CA1300C25FF9 /* AppDelegate.m */,
+				1FFAC1BB2578CA1300C25FF9 /* SceneDelegate.h */,
+				1FFAC1BC2578CA1300C25FF9 /* SceneDelegate.m */,
+				1FFAC1BE2578CA1300C25FF9 /* ViewController.h */,
+				1FFAC1BF2578CA1300C25FF9 /* ViewController.mm */,
+				1FFAC1C12578CA1300C25FF9 /* Main.storyboard */,
+				1FFAC1C42578CA1600C25FF9 /* Assets.xcassets */,
+				1FFAC1C62578CA1600C25FF9 /* LaunchScreen.storyboard */,
+				1FFAC1C92578CA1600C25FF9 /* Info.plist */,
+				1FFAC1CA2578CA1600C25FF9 /* main.m */,
+			);
+			path = 8BitMusic;
+			sourceTree = "<group>";
+		};
+		1FFAC1D12578CA8200C25FF9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FFAC1D22578CA9A00C25FF9 /* DataDefs.h */,
+				1FFAC1D32578CB4500C25FF9 /* OpenAL8BitPlayer.cpp */,
+				1FFAC1D42578CB4500C25FF9 /* OpenAL8BitPlayer.hpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1FFAC1D62578CED400C25FF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FFAC1D72578CEF400C25FF9 /* 钢铁洪流进行曲.txt */,
+				1FFAC1D82578CEF400C25FF9 /* 幻化成风.txt */,
+				1FFAC1DA2578CEF400C25FF9 /* 灶门碳治郎之歌.txt */,
+				1FFAC1D92578CEF400C25FF9 /* Time after time.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1FFAC1DF2578D0D600C25FF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FFAC1E02578D0D700C25FF9 /* OpenAL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FFAC1B42578CA1300C25FF9 /* 8BitMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFAC1CE2578CA1600C25FF9 /* Build configuration list for PBXNativeTarget "8BitMusic" */;
+			buildPhases = (
+				1FFAC1B12578CA1300C25FF9 /* Sources */,
+				1FFAC1B22578CA1300C25FF9 /* Frameworks */,
+				1FFAC1B32578CA1300C25FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 8BitMusic;
+			productName = 8BitMusic;
+			productReference = 1FFAC1B52578CA1300C25FF9 /* 8BitMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FFAC1AD2578CA1300C25FF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Skyprayer Studio";
+				TargetAttributes = {
+					1FFAC1B42578CA1300C25FF9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 1FFAC1B02578CA1300C25FF9 /* Build configuration list for PBXProject "8BitMusic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FFAC1AC2578CA1300C25FF9;
+			productRefGroup = 1FFAC1B62578CA1300C25FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FFAC1B42578CA1300C25FF9 /* 8BitMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FFAC1B32578CA1300C25FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFAC1DE2578CEF400C25FF9 /* 灶门碳治郎之歌.txt in Resources */,
+				1FFAC1DB2578CEF400C25FF9 /* 钢铁洪流进行曲.txt in Resources */,
+				1FFAC1C82578CA1600C25FF9 /* LaunchScreen.storyboard in Resources */,
+				1FFAC1DC2578CEF400C25FF9 /* 幻化成风.txt in Resources */,
+				1FFAC1C52578CA1600C25FF9 /* Assets.xcassets in Resources */,
+				1FFAC1C32578CA1300C25FF9 /* Main.storyboard in Resources */,
+				1FFAC1DD2578CEF400C25FF9 /* Time after time.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FFAC1B12578CA1300C25FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFAC1D52578CB4500C25FF9 /* OpenAL8BitPlayer.cpp in Sources */,
+				1FFAC1C02578CA1300C25FF9 /* ViewController.mm in Sources */,
+				1FFAC1BA2578CA1300C25FF9 /* AppDelegate.m in Sources */,
+				1FFAC1CB2578CA1600C25FF9 /* main.m in Sources */,
+				1FFAC1BD2578CA1300C25FF9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FFAC1C12578CA1300C25FF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFAC1C22578CA1300C25FF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FFAC1C62578CA1600C25FF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFAC1C72578CA1600C25FF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FFAC1CC2578CA1600C25FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FFAC1CD2578CA1600C25FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FFAC1CF2578CA1600C25FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 8BitMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyprayer.-BitMusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FFAC1D02578CA1600C25FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = 8BitMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skyprayer.-BitMusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FFAC1B02578CA1300C25FF9 /* Build configuration list for PBXProject "8BitMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFAC1CC2578CA1600C25FF9 /* Debug */,
+				1FFAC1CD2578CA1600C25FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFAC1CE2578CA1600C25FF9 /* Build configuration list for PBXNativeTarget "8BitMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFAC1CF2578CA1600C25FF9 /* Debug */,
+				1FFAC1D02578CA1600C25FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FFAC1AD2578CA1300C25FF9 /* Project object */;
+}
